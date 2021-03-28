@@ -2,7 +2,7 @@
 
 vector<int> Solution::primesum(int A) {
     
-    vector<bool> val(A,true);
+    vector<bool> val(A+1,true);
     vector<int> sol;
     int i,j;
     for(i = 2; i <= sqrt(A); i++){
